@@ -5,13 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
-        
-        @vite('resources/css/bootstrap.min.css')
+        <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
         @vite('resources/css/app.css')
     </head>
     <body>
         <div id="app"></div>
         @vite('resources/js/app.js')
-        @vite('resources/js/bootstrap.min.js')
     </body>
 </html>
